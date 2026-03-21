@@ -8,6 +8,7 @@
 | R5 | Cantidades inválidas de productos en el carrito. (Adecuación Funcional) | 2 | 3 | 6 | Pruebas automatizadas, pruebas API, monitoreo. |
 
 Justificaciones
+
 R1:  Al tratarse de una funcionalidad recurrente en cualquier web o app, no tendría que ser muy susceptible a errores, sin embargo, en el caso de que llegase a suceder, puede incurrir en frustración y pérdidas de clientes y, por ende, pérdidas financieras.
 
 R2: Teniendo en cuenta que el canal principal de ventas es la página web, un fallo en la detección de la disponibilidad de uno o más productos puede recurrir en un malestar en los clientes y pérdida financiera. 
