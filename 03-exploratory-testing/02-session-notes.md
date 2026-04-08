@@ -21,6 +21,7 @@ Ian Medina
 
 ## DESGLOSE DE TAREAS
 Duración: 60 minutos
+
 Diseño y ejecución de tareas: 100%
 
 ## ARCHIVOS DE DATOS
