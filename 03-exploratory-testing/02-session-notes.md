@@ -4,21 +4,61 @@ Explorar las funcionalidades del carrito usando acciones como "add to cart", "re
 
 ## ÁREAS
 JPetStore
-Versión Demo
-OS Windows 11
-Plataforma Web Chrome
-Estrategia Exploración y Análisis
+
+Versión: Demo
+
+OS: Windows 11
+
+Plataforma: Web - Chrome
+
+Estrategia: Exploración, testing y obersvación
 
 ## INICIO
-(Registra cuándo comienza la sesión – control de tiempo).
+08/04/2026 16:00 pm
+
 ## TESTER
-(Identifica quién realizó la exploración.)
+Ian Medina
+
 ## DESGLOSE DE TAREAS
-(Muestra cómo se distribuyó el tiempo durante la sesión)
+Duración: 60 minutos
+Diseño y ejecución de tareas: 100%
+
 ## ARCHIVOS DE DATOS
 (Indica qué datos se usaron en las pruebas).
+
 ## NOTAS DE PRUEBA
-(Captura lo que se exploró, observó y aprendió del sistema):
+Dispositivo/Navegador: Laptop/Chrome
+
+Funcionalidades:
+
+Añadir al carrito
+
+Eliminar del carrito
+
+Actualizar el carrito
+
+Proceder al checkout
+
+Cantidad
+
+Interfaz de usurario:
+
+Item ID
+
+Product ID
+
+Descripción
+
+En Stock
+
+Cantidad
+
+Precio
+
+Sub Total
+
+Costo Total
+
 ## LISTA DE RIESGOS
 (Resume posibles problemas importantes detectados o inferidos)
 ## DEFECTOS (BUGS)
