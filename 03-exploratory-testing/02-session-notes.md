@@ -1,8 +1,14 @@
 # Sesión 1
 ## Charter
-(Define qué explorar y con qué propósito)
+Explorar las funcionalidades del carrito usando acciones como "add to cart", "remove", "update cart", variaciones de entrada en la cantidad (números enteros, decimales, negativos y extremos) y verificar el cálculo total para detectar fallos en la adición y sustracción de productos, la validación de cantidades y el cálculo total.
+
 ## ÁREAS
-(Contextualiza el entorno donde se ejecuta la prueba)
+JPetStore
+Versión Demo
+OS Windows 11
+Plataforma Web Chrome
+Estrategia Exploración y Análisis
+
 ## INICIO
 (Registra cuándo comienza la sesión – control de tiempo).
 ## TESTER
