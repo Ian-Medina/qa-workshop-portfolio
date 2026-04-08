@@ -4,20 +4,20 @@
 ______
 **Misión:** Explorar las funcionalidades del carrito 
 
-usando "add to cart", "remove", "update cart", variaciones de entrada tales como cantidad, números enteros y decimales y suma del precio
+usando acciones como "add to cart", "remove", "update cart", variaciones de entrada en la cantidad (números enteros, decimales, negativos y extremos) y verificar el cálculo total
 
-para descubrir posibles fallos en la adición y substracción de productos así como en la suma total de los precios y la validación de números enteros y decimales. 
+para detectar fallos en la adición y sustracción de productos, la validación de cantidades y el cálculo total. 
 ______
 **Área principal explorada:** Carrito
 ______
 ## Charter 2
-**Título:** Exploración de las entradas en inicio de sesión y registro de ususarios
+**Título:** Exploración de entradas en inicio de sesión y registro de usuarios
 ______
-**Misión:** Explorar variaciones de entrada en inicio de sesión y registro de usuarios
+**Misión:** Explorar las entradas en los procesos de inicio de sesión y registro de usuarios
 
-usando datos válidos e inválidos, campos vacíos, realizar compra sin haber iniciado sesión
+usando datos válidos e inválidos, campos vacíos y escenarios como realizar compras sin inicio de sesión
 
-para determinar si existe un 2FA, validación de datos, casillas obligatorias y opcionales y riesgo de pago sin haber iniciado sesión.
+para identificar fallos en la validación de datos, manejo incorrecto de campos obligatorios, riesgo de ausencia de controles de seguridad como el 2FA y acceso o compra sin autenticación.
 ______
-**Área principal explorada:** Inicio de sesión y registro de usuario
+**Área principal explorada:** Inicio de sesión y registro
 ______
