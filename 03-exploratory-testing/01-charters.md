@@ -1,8 +1,8 @@
 # Charters
 ## Charter 1
-**Título:** ______
+**Título:** Ejemplo
 **Misión:**
-______
+Ejemplo
 **Área principal explorada:**
 ______
 ## Charter 2
