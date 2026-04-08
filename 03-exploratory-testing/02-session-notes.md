@@ -29,39 +29,9 @@ Diseño y ejecución de tareas: 100%
 ## NOTAS DE PRUEBA
 Dispositivo/Navegador: Laptop/Chrome
 
+Funcionalidades: Añadir al Carrito - Eliminar del Carrito - Actualizar el Carrito - Proceder al Checkout - Modificar Cantidad
 
-
-Funcionalidades:
-
-Añadir al carrito
-
-Eliminar del carrito
-
-Actualizar el carrito
-
-Proceder al checkout
-
-Cantidad
-
-
-
-Interfaz de usurario:
-
-Item ID
-
-Product ID
-
-Descripción
-
-En Stock
-
-Cantidad
-
-Precio
-
-Sub Total
-
-Costo Total
+Interfaz de usurario: ID del Artículo - ID del Producto - Descripción - En Stock - Cantidad - Precio - Sub Total - Costo Total
 
 ## LISTA DE RIESGOS
 (Resume posibles problemas importantes detectados o inferidos)
