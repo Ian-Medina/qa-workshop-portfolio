@@ -29,6 +29,7 @@ Diseño y ejecución de tareas: 100%
 ## NOTAS DE PRUEBA
 Dispositivo/Navegador: Laptop/Chrome
 
+
 Funcionalidades:
 
 Añadir al carrito
@@ -40,6 +41,7 @@ Actualizar el carrito
 Proceder al checkout
 
 Cantidad
+
 
 Interfaz de usurario:
 
