@@ -11,7 +11,7 @@ OS: Windows 11
 
 Plataforma: Web - Chrome
 
-Estrategia: Exploración, testing y obersvación
+Estrategia: Exploración y testing
 
 ## INICIO
 08/04/2026 16:00 pm
@@ -31,11 +31,24 @@ Dispositivo/Navegador: Laptop/Chrome
 
 Funcionalidades: Añadir al Carrito - Eliminar del Carrito - Actualizar el Carrito - Proceder al Checkout - Modificar Cantidad
 
-Interfaz de usurario: ID del Artículo - ID del Producto - Descripción - En Stock - Cantidad - Precio - Sub Total - Costo Total
+Datos: ID del Artículo - ID del Producto - Descripción - En Stock - Cantidad - Precio - Sub Total - Costo Total
+
+Valores límites: 
+
+Cantidad mínima permitida de un producto en carrito: 1
+
+Cantidad máxima permitida de un producto en carrito: 999.999.999
 
 ## LISTA DE RIESGOS
-(Resume posibles problemas importantes detectados o inferidos)
+- "Add to cart" no agrega el producto al carrito
+- La función "remove" no elimina el producto del carrito
+- El sub total o costo total no se actualizan al modificar la cantidad del producto añadido, al agregar uno nuevo o al hacer click en "update cart"
+- El producto es eliminado al refrescar el carrito
+- El sistema permite proceder en la compra de un producto no disponible en stock
+- El costo total suma decimales
+
 ## DEFECTOS (BUGS)
-(Documenta fallos concretos encontrados en el producto.)
+El sistema permite comprar productos que no esten en stock, llegando incluso a descontar la tarjeta del cliente.
+
 ## INCIDENTES (ISSUES)
-(Registra dudas, vacíos o problemas en el conocimiento del sistema )
+Si bien el sistema no calcula sub total ni costo total al incluir una cantidad inválida (decimales, negativos y extremos), el mismo igualmente permite proceder al pago final.
