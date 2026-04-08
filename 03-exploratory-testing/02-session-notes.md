@@ -45,7 +45,7 @@ Cantidad máxima permitida de un producto en carrito: 999.999.999
 - El sub total o costo total no se actualizan al modificar la cantidad del producto añadido, al agregar uno nuevo o al hacer click en "update cart"
 - El producto es eliminado al refrescar el carrito
 - El sistema permite proceder en la compra de un producto no disponible en stock
-- El costo total suma decimales
+- El sub total y costo total suman decimales y negativos
 
 ## DEFECTOS (BUGS)
 El sistema permite comprar productos que no esten en stock, llegando incluso a descontar la tarjeta del cliente.
