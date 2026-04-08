@@ -3,7 +3,7 @@
 **Título:** Ejemplo
 **Misión:** Ejemplo
 ______
-**Área principal explorada:**
+**Área principal explorada:** Ejemplo
 ______
 ## Charter 2
 **Título:** ______
