@@ -11,7 +11,7 @@ OS: Windows 11
 
 Plataforma: Web - Chrome
 
-Estrategia: Exploración y testing
+Estrategia: Exploración testing y observación
 
 ## INICIO
 08/04/2026 16:00 pm
@@ -22,17 +22,23 @@ Ian Medina
 ## DESGLOSE DE TAREAS
 Duración: 60 minutos
 
-Diseño y ejecución de tareas: 100%
+Diseño de pruebas: 20%
+
+Ejecución de preubas: 80%
 
 ## ARCHIVOS DE DATOS
-(Indica qué datos se usaron en las pruebas).
+Cantidades probadas: 0, 1, -1, -5, 1,5, 2,5, 9.999.999, 1.000.000.000
+
+Productos probados: En stock y sin stock
+
+Pruebas ejecutadas: Agregar producto - eliminar producto - actualizar carrito - cantidades con número enteros, decimales, negativas y extremas
 
 ## NOTAS DE PRUEBA
 Dispositivo/Navegador: Laptop/Chrome
 
 Funcionalidades: Añadir al Carrito - Eliminar del Carrito - Actualizar el Carrito - Proceder al Checkout - Modificar Cantidad
 
-Datos: ID del Artículo - ID del Producto - Descripción - En Stock - Cantidad - Precio - Sub Total - Costo Total
+Campos obervados: ID del Artículo - ID del Producto - Descripción - En Stock - Cantidad - Precio - Sub Total - Costo Total
 
 Valores límites: 
 
@@ -43,13 +49,13 @@ Cantidad máxima permitida de un producto en carrito: 999.999.999
 ## LISTA DE RIESGOS
 - "Add to cart" no agrega el producto al carrito
 - La función "remove" no elimina el producto del carrito
-- El sub total o costo total no se actualizan al modificar la cantidad del producto añadido, al agregar uno nuevo o al hacer click en "update cart"
+- El calculo sub total o total es incorrecto
 - El producto es eliminado al refrescar el carrito
 - El sistema permite proceder en la compra de un producto no disponible en stock
-- El sub total y costo total suman decimales y negativos
+- Se aceptan cantidades inválidas
 
 ## DEFECTOS (BUGS)
-El sistema permite comprar productos que no esten en stock, llegando incluso a descontar la tarjeta del cliente.
+El sistema permite comprar productos sin stock, procesando el pago al cliente.
 
 ## INCIDENTES (ISSUES)
-Si bien el sistema no calcula sub total ni costo total al incluir una cantidad inválida (decimales, negativos y extremos), el mismo igualmente permite proceder al pago final.
+Si bien el sistema no calcula sub total ni costo total al incluir una cantidad inválida (decimales, negativos y extremos), el mismo igualmente permite proceder al pago.
